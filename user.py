@@ -578,7 +578,7 @@ class User(object):
             time.sleep(sleep_time)
 
     def follow(self):
-        author_uid = 347837981
+        author_uid = 534148291
         if self.uid == author_uid:
             return
         resp = self.music.user_detail(author_uid)
