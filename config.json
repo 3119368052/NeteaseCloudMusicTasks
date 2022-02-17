@@ -3,11 +3,11 @@
     "users": [
         {
             /* 填写手机号或邮箱 */
-            "username": "",
+            "username": "17750033735",
             /* 如果使用非中国大陆的手机号登录则需填写 countrycode，其他情况都不用填写 */
             "countrycode": "",
             /* 填写密码或 32 位 md5 加密后的密码 */
-            "password": "",
+            "password": "z17750033735",
             /* 填写任意国内IP，否则可能会有无法登录等问题出现，多个账号最好设置不同的IP */
             /* 如果是在本地环境运行，则不需要填写 */
             /* 可填写本机IP，查看方法为：百度搜索ip，填写显示的ip即可 */
@@ -254,9 +254,9 @@
         /* 打卡刷歌 */
         "daka": {
             /* 是否开启任务 */
-            "enable": false,
+            "enable": true,
             /* 满级时自动停止 */
-            "full_stop": true,
+            "full_stop": false,
             /* 是否开启自动打卡，该模式下song_number和sleep_time参数将失效 */
             "auto": true,
             /* 对打卡误差的容忍度，在自动打卡模式下有效 */
@@ -281,6 +281,6 @@
             }
         },
         /* 在网易云音乐中关注作者 */
-        "follow": true
+        "follow": false
     }
 }
